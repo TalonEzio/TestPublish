@@ -1,0 +1,214 @@
+#nav #design_page a{
+    color: #FFEF99;
+}
+
+.container {
+    width: 100%;
+    height: 3550px;
+    margin-top: 150px;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    background: url("/assets/img/Thiet-ke-noi-that-banner.jpg") center / cover;
+}
+
+.tk_content-1 {
+    width: 100%;
+    height: 630px;
+    padding: 0 80px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.content-1_left {
+    width: 50%;
+    height: 100%;
+}
+
+.content-1_left h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.content-1_left p {
+    line-height: 1.7rem;
+}
+
+.content-1_right {
+    width: 50%;
+    height: 100%;
+    margin-left: 80px;
+    background: url("/assets/img/tk-content1-img1.jpg") center / cover;
+}
+
+.content-1_left_btn {
+    width: 100%;
+    height: 60px;
+    background-color: #BB8636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 1px #aaa;
+}
+
+.content-1_left_btn p {
+    font-size: 1.7rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.content-1_left_btn img {
+    width:25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.content-1_left_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tk_content-2 {
+    width: 100%;
+    height: 630px;
+    padding: 0 80px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.content-2_left {
+    width: 50%;
+    height: 100%;
+    margin-right: 80px;
+    background: url("/assets/img/tk-content1-img2.jpg") center / cover;
+}
+
+.content-2_right {
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.content-2_right h2 {
+    margin-top: 0px;
+}
+
+.content-2_right p {
+    line-height: 1.7rem;
+}
+
+.content-2_right_btn {
+    width: 100%;
+    height: 60px;
+    background-color: #BB8636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 1px #aaa;
+}
+
+.content-2_right_btn p {
+    font-size: 1.7rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.content-2_right_btn img {
+    width:25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.content-2_right_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tk_content-3 {
+    width: 100%;
+    height: auto;
+    padding: 0 80px;
+    margin-top: 80px;
+}
+
+.tk_content-3 h2 {
+    text-align: center;
+    font-size: 2rem;
+    border-top: solid 1px #ccc;
+    padding-top: 25px;
+}
+
+.content-3_step {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-3_step div {
+    width: 330px;
+    height: 330px;
+    margin-right: 9px;
+    padding: 10px 10px;
+}
+
+.content-3_step p {
+    margin-bottom: 20px;
+    line-height: 1.7rem;
+}
+
+.tk_content-4 {
+    width: 100%;
+    height: 580px;
+    padding: 0 80px;
+    display: flex;
+}
+
+.content-4_img-left {
+    width: 50%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.content-4_img-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-4_img-mid {
+    width: 25%;
+    height: 100%;   
+    padding-right: 10px;
+}
+
+.content-4_img-mid img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-4_img-right {
+    width: 25%;
+    height: 100%; 
+}
+
+.content-4_img-right div {
+    width: 100%;
+    height: 50%;
+
+}
+
+.content-4_img-right div img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-4_img-right-top {
+    padding-bottom: 10px;
+}

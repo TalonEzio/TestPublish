@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/san_pham.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+</head>
+    <!--header -->
+    <div class="header">
+
+        <!--header with search, logo, contact -->
+        <div class="header-with-search">
+            <div class="header_logo">
+                <img class="header_logo-img" src="/assets/img/logo1.png" alt="">
+            </div>
+            
+            <div class="header_search">
+                <input type="text" class="header_search-input" placeholder="Tìm kiếm sản phẩm...">
+                <div class="header_search-icon">
+                    <a href="#">
+                        <img class="search-icon-img" src="/assets/img/search_icon.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="header_login">
+                <a href="#" class="header-sign_up">Đăng ký</a>
+                <a href="" class="header-sign_in">Đăng nhập</a>
+            </div>
+        </div>
+        <!-- header with navbar-->
+        <div id="menu">
+            <ul id="nav">
+                <li id="homepage"><a href="/home.html">Trang chủ</a></li>
+                <li><a href="/about_us.html">Giới thiệu</a></li>
+                <li id="has-subnav"><a href="#">Phòng<img id="Phong--down--icon" src="/assets/img/down_icon.png" alt=""></a>
+                <!-- Sub menu Phong -->
+                    <ul class="nav_subnav--Phong">
+                        <li><a href="#">Phòng ngủ</a></li>
+                        <li><a href="/Phong_Khach.html">Phòng khách</a></li>
+                        <li><a href="#">Phòng làm việc</a></li>
+                        <li><a href="#">Phòng ăn</a></li>
+                        <li><a href="#">Phòng tắm</a></li>
+                    </ul>
+                <!-- end sub menu phong -->
+                </li>
+                <li><a href="/design.htm">Thiết kế nội thất</a></li>
+                <li><a href="#">Sản phẩm<img id="SPham--down--icon" src="/assets/img/down_icon.png" alt=""></a>
+                <!--Sub menu san pham-->
+                <ul class="nav_subnav--SPham">
+                    <li><a href="#">Giường</a></li>
+                    <li><a href="#">Tủ</a></li>
+                    <li><a href="#">Bàn</a></li>
+                    <li><a href="#">Ghế</a></li>
+                    <li><a href="#">Dụng cụ bếp</a></li>
+                </ul>
+                <!--end sub menu san pham-->
+                </li>
+                <li><a href="/Goc_Cam_Hung.html">Góc cảm hứng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <a id="menu_cart" href="/Cart.html">
+                <img src="/assets/img/cart_icon.png" alt="">
+            </a>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!--content-->
+    <div class="container">
+        <div class="container_left">
+            <img src="/assets/img/sp_img1.jpg" alt="">
+        </div>
+
+        <div class="container_right">
+            <h1>Đèn đứng Lindby Kimya</h1>
+            <p> <b>Giá:</b> 7.300.001₫ <img src="/assets/img/heart_icon.png" alt=""></p>
+            <div>
+                <h2>Kích thước</h2>
+                <div>
+                    <p class="chi-tiet-sp">D195 - R250 - C1500 mm</p>
+                </div>
+            </div>
+
+            <div>
+                <h2>Chất liệu</h2>
+                <div>
+                    <p class="chi-tiet-sp">Kim loại (gắn được 1 bóng E27, 60W)</p>
+                </div>
+            </div>
+
+            <p>Hàng có sẵn - <a href=""> Xem cửa hàng trưng bày</a></p>
+            <p>Mã: 3*104269</p>
+            <p>Tag: Kim loại</p>
+            <div class="cotainer_right-btn">
+                <div class="right-btn_left">
+                    <input id="tru" onclick="tru()" type="button" value="-">
+                    <input id="nhap" type="text" value="1">
+                    <input id="cong" onclick="cong()" type="button" value="+"> 
+                </div>
+
+                <button class="right-btn_mid">MUA NGAY</button>
+                <button class="right-btn_right">THÊM VÀO GIỎ</button>
+            </div>
+
+                <div id="van_chuyen-chi-tiet">
+                    <a href=""><h2>Đánh giá (0)</h2></a>
+                    <a href=""><h2>Bảo hành</h2></a>
+                    <a href=""><h2 id="nd-van-chuyen">Vận chuyển</h2></a>
+                </div>
+            <div>
+                <h3>GIAO HÀNG TẬN NƠI</h3>
+            </div>
+
+            <p>Puy Puy cung cấp dịch vụ giao hàng tận nơi, lắp ráp và sắp xếp vị trí theo đúng ý muốn của quý khách:</p>
+            <p>MIỄN PHÍ giao hàng trong các Quận nội thành Tp.Hồ Chí Minh và Hà Nội, áp dụng cho các đơn hàng trị giá trên 10 triệu.</p>
+            <p>Đối với khu vực các tỉnh lân cận: Tính phí hợp lý theo dựa trên quãng đường vận chuyển</p>
+        </div>
+    </div>
+    <!--end content-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer_top">
+            <div class="about">
+                <div class="about-logo">
+                    <img src="/assets/img/logo1.png" alt="">
+                </div>
+
+                <div class="about-info">
+                    <p>Trải qua nhiều năm phát triển liên tục, đến nay các sản phẩm của chúng tôi đã có mặt trong rất nhiều công trình nội thất. Nội thất Puy Puy trở thành một trong những thương hiệu uy tín nhất thị trường, có tính cạnh tranh mạnh mẽ và được khách hàng tin tưởng ủng hộ.</p>
+                </div>
+
+                <div class="about-icon">
+                    <a href="#"><img src="/assets/img/letter_icon.png" alt=""></a>
+                    <a href="#"><img src="/assets/img/phone_icon.png" alt=""></a>
+                    <a href="#"><img src="/assets/img/wifi_icon.png" alt=""></a>
+                </div>
+            </div>
+    
+            <div class="help">
+                <h3>Hỗ trợ khách hàng</h3>
+                <ul class="help-list">
+                    <li><a href="#">Quy trình làm việc</a></li>
+                    <li><a href="#">Chế độ bảo hành</a></li>
+                    <li><a href="#">Hình thức thanh toán</a></li>
+                    <li><a href="#">Vận chuyển lắp đặt</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Sơ đồ trang website</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                </ul>
+            </div>
+    
+            <div class="contact">
+                <h3>Thông tin liên hệ</h3>
+                <p>Cảm ơn bạn đã ghé thăm noithatpuypuy.com. Nếu bạn có bất cứ câu hỏi nào vui lòng liên hệ với chúng tôi theo thông tin dưới đây:</p>
+                <ul class="contact-list">
+                    <li>Địa chỉ: Cổ Nhuế - Bắc Từ Liêm - Hà Nội</li>
+                    <li>Email: lienhepuypuy@gmail.com</li>
+                    <li>Website: <a href="#">noithatpuypuy.com</a></li>
+                    <li>Hotline: 0123456789</li>
+                    <li>Liên hệ: (026) 6868 6868</li>
+                </ul>
+            </div>
+    
+            <div class="social-net">
+                <h3>Mạng xã hội</h3>
+                <a href=""><img src="/assets/img/facebook_icon.png" alt=""></a>
+                <a href=""><img src="/assets/img/instagram_icon.png" alt=""></a>
+                <a href=""><img src="/assets/img/youtube_icon.png" alt=""></a>
+                <a href=""><img src="/assets/img/twister_icon.png" alt=""></a>
+                <a href=""><img src="/assets/img/pinterest_icon.png" alt=""></a>
+                <h3>Liên kết - đối tác</h3>
+            </div>
+
+        </div>
+
+        <div class="footer_bot">
+            <p>Copyright 2022 © <a href="home.html">noithatpuypuy.com</a></p>
+        </div>
+    </div>
+    <!--end footer-->
+    <script src="/assets/js/san_pham.js"></script>
+</body>
+</html>

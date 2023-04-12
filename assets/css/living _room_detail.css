@@ -1,0 +1,145 @@
+#nav #has-subnav > a{
+    color: #FFEF99;
+}
+
+.container {
+    width: 100%;
+    height: 2000px;
+    margin-top: 150px;
+}
+
+.top {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 60px 80px;
+}
+
+.top_left {
+    width: 30%;
+    height: 100%;
+}
+
+
+.top_left p {
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
+.top_right {
+    width: 70%;
+    height: 100%;
+    padding-left: 53px;
+}
+
+.top_right img {
+    width: 900px;
+    height: 600px;
+    padding-left: 16px;
+}
+
+.mid {
+    width: 100%;
+    height: 700px;
+    padding: 40px 44px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid img {
+    width: 410px;
+    height: 620px;
+}
+
+.bottom {
+    width: 100%;
+    height: 500px;
+}
+
+#bottom_title h1 {
+    text-align: center;
+}
+
+#bottom_product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-around;
+}
+
+.bottom_product-card {
+    width: 340px;
+    height: 430px;
+    margin-right: 5px;
+    padding: 40px;
+}
+
+.bottom_product-card img {
+    width: 280px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.bottom_product-card:hover img {
+    transform: scale(1.1);
+}
+
+.bottom_product-card p {
+    margin-top: -5px;
+    font-size: 0.9rem;
+}
+
+.bottom_product-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bottom_product-name img {
+    width: 25px;
+    height: 25px;
+}
+
+#card-price {
+    text-align: right;  
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_btn-left {    
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border: solid 1px;
+    font-weight: 700;
+    padding: 10px 10px;
+    display: none;
+}
+
+.card_btn-left:hover {
+    color: var(--white-color);
+    background-color: #BB8636;
+}
+
+.card_btn-right {
+    color: var(--white-color);
+    background-color: #BB8636;
+    border: #9A6B27;
+    padding: 10px 10px;
+    display: none;
+}
+
+.bottom_product-card:hover .card_btn-left,
+.bottom_product-card:hover .card_btn-right {
+    display: block;
+    cursor: pointer;
+}
+
+.bottom_product-card:hover{
+    border: solid 1px rgba(221, 218, 218, 0.881);
+}

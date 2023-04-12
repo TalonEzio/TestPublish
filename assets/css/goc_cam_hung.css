@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    height: 3600px;
+    margin-top: 150px;
+}
+
+.top {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 60px 80px;
+}
+
+.top-left {
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+    margin-right: 20px;
+    padding-top: 160px;
+    padding-left: 100px;
+    background-image: url("/assets/img/GocCamHungBanner.jpg");
+}
+
+.top-left h3 {
+    color: white;
+
+}
+
+.top-left h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.top-left button {
+    border: 2px solid;
+    font-weight: 600;
+    width: 90px;
+    height: 40px;
+    background: rgba(0,0,0,0.1);
+}
+
+.top-left button:hover {
+    background: white;
+    transition: 0.5s;
+    border: none;
+}
+
+.top-right{
+    width: 30%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.top-right-ele {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+    background-color: burlywood;
+}
+
+.top-right-ele img {
+    width: 100%;
+    height: 100%;
+}
+
+.mid {
+    width: 100%;
+    height: 3000px;
+    padding: 60px 60px;
+    margin-top: -60px;
+}
+
+.mid-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* pading */
+    justify-content: space-between;
+}
+
+.mid-content h3 {
+    color: var(--logo-color);
+}
+
+.mid-content div {
+    width: 698px;
+    height: 370px;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+}
+
+.mid-content div img{
+    width: 100%;
+    height: 380px;
+    margin-bottom: -15px;
+}
+
+.mid-content div a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.mid-content div h3 {
+    margin-left: 10px;
+}
